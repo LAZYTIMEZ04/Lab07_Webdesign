@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table LAYOUTS</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+           
+        }
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+
+        thead th {
+            background-color: #660000;
+            color: white;
+        }
+        td.nav {
+            background-color: #ff0080;
+            width: 200px;
+        }
+        .nav ul{
+            list-style-type: none;
+            padding: 0;
+        }
+        tfoot td {
+            background-color: #660000;
+            color: white;
+            text-align: center;
+        }
+
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">
+                    <h1>Header</h1>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="nav">
+                    <ul>
+                        <li>Menu1</li>
+                        <li>Menu2</li>
+                        <li>Menu3</li>
+                        <li>Menu4</li>
+                    </ul>
+                </td>
+                <td>
+                    <h2>Content</h2>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ipsa sunt unde exercitationem
+                    accusantium laborum sit? Magnam provident dicta sequi suscipit velit similique. Eius debitis,
+                    delectus vitae culpa incidunt exercitationem, dolore neque accusamus, voluptatibus error ipsa.
+                    Aliquid ea aperiam illo debitis doloribus explicabo dicta velit accusantium quo obcaecati ipsam
+                    voluptatibus dolorum, laudantium neque libero. Pariatur distinctio, explicabo sit sunt possimus
+                    officiis iste neque! Omnis nisi architecto vel esse aliquid sunt ipsam veniam odio perspiciatis
+                    porro fuga eos neque quisquam deleniti reiciendis qui dolor, tempora quasi, corporis quidem magnam?
+                    Quis quisquam, illum eius ipsum nam corporis fugiat molestiae porro suscipit? Dolor!
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Footer</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
